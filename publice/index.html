@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal profile</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css">
+
+</head>
+
+<body>
+    <!-- nav start-->
+    <nav class="bg-black/55 flex justify-between justify-center py-6 fixed top-0 left-0 right-0 z-20">
+        <div class="container mx-auto">
+            <a href="#" class="text-2xl font-bold text-white absolute"> Sunita 
+              <span class="text-blue-800"> Yadav </span></a>
+            <svg class="h-8 w-8 text-white md:hidden ml-auto cursor-pointer mr-0 text-right" id="menuIcon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="4" y1="8" x2="20" y2="8" />  <line x1="4" y1="16" x2="20" y2="16" /></svg>
+            <div class="md:flex relative hidden" id="mobile-d">
+                <ul class="md:flex md:ml-auto md:mr-0 py-6 md:py-0">
+                    <li> <a href="#about" class="text-white px-4 py-3 block md:py-0 hover:transition-all hover:ease-in hover:text-blue-800"> About US </a></li>
+                    <li> <a href="#resume" class="text-white px-4 py-3 block md:py-0 hover:transition-all hover:ease-in hover:text-blue-800"> Resume </a></li>
+                    <li> <a href="#portfolio" class="text-white px-4 py-3 block md:py-0 hover:transition-all hover:ease-in hover:text-blue-800"> Portfolio</a></li>
+
+                    <li> <a href="#contact" class="text-white px-4 py-3 block md:py-0 hover:transition-all hover:ease-in hover:text-blue-800"> Contact Us </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end-->
+    <!--banner  start-->
+    <header style=" background-image: url(../images/header-bg.jpg);" class=" flex justify-center items-center h-svh bg-cover py-10">
+        <div class="container mx-auto font-roboto">
+            <h1 class="md:text-8xl text-5xl text-center text-white font-extrabold"> Sunita <span class="text-blue-800"> Yadav</span></h1>
+            <h3 class="text-center md:text-5xl text-3xl text-white py-6"> I am <span class="typed-text font-bold text-blue-800"></span><span class="cursor blink">&nbsp;</span></h3>
+        </div>
+    </header>
+
+    <!--About Section  start-->
+    <section class="bg-slate-50 md:py-12 py-10 relative wow slideInLeft" data-wow-duration="1s" data-wow-delay="2s" id="about">
+        <div class="container mx-auto px-4 md:px-0">
+            <div class="pb-10 mb-12">
+                <hi class=" text-center block text-5xl font-bold font-roboto text-black pb-6"> About Us</hi>
+                <span class="block w-20 h-1 bg-blue-800 mx-auto"> </span>
+            </div>
+
+            <div class="flex md:flex-row flex-col text-black">
+                <div class="basis-1/3 mb-5">
+
+                    <img src="../images/profile-img.jpg" alt="Sunita" class="rounded" /> </div>
+                <div class="basis-2/3 md:pl-20">
+                    <h2 class=" text-4xl font-bold mb-8"> I am UI Designer and UI Developer</h2>
+                    <p>Hi, I'm Sunita Yadav, a passionate Web Designer and UI Developer with expertise in creating modern, responsive, and user-friendly web interfaces. I specialize in front-end technologies, including HTML, CSS, SCSS, Bootstrap, Tailwind
+                        CSS, and JavaScript, along with React.js for building dynamic web applications. I also have strong design skills in Figma and Photoshop, allowing me to craft visually appealing and functional digital experiences. With 7 years of
+                        experience, I focus on blending creativity with code to bring ideas to life. Let's build something amazing together!</p>
+
+
+                    <div class="grid gap-3 grid-cols-2 mt-5 text-black text-lg">
+                        <div> <b> Name : </b> Sunita Yadav</div>
+                        <div> <b> Email: </b> sunita.sun15april@gmail.com </div>
+                        <div> <b> Mobile :</b> 9049669556 </div>
+                        <div> <b>  Post :</b> UI Designer and Developer</div>
+                        <div> <b> Portfolio</b>
+                            <a rel="https://dribbble.com/sunita_web-designer" target="_blank"> https://dribbble.com/sunita_web-designer
+                        </a></div>
+
+                    </div>
+                    <h3 class="text-3xl font-bold font-roboto mt-8"> Skill</h3>
+                    <ul class="grid gap-3 grid-cols-2 mt-5">
+                        <li class="before:content-['✔'] before:text-blue-800"> Figma</li>
+                        <li class="before:content-['✔'] before:text-blue-800"> HTML</li>
+                        <li class="before:content-['✔'] before:text-blue-800"> CSS/SCSS</li>
+                        <li class="before:content-['✔'] before:text-blue-800"> Bootstrap</li>
+                        <li class="before:content-['✔'] before:text-blue-800"> JavaScript</li>
+                        <li class="before:content-['✔'] before:text-blue-800"> React JS</li>
+                        <li class="before:content-['✔'] before:text-blue-800"> Wordpress</li>
+                        <li class="before:content-['✔'] before:text-blue-800"> Tailwind Css</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Resume Section  start-->
+    <section class="bg-gray-100 md:py-12 py-10 relative wow slideInRight" data-wow-duration="2s" data-wow-delay="3s" id="resume">
+        <div class="container mx-auto px-4 md:px-0 ">
+            <div class="pb-10 mb-12">
+                <hi class=" text-center block text-5xl font-bold font-roboto text-black pb-6"> Resume</hi>
+                <span class="block w-20 h-1 bg-blue-800 mx-auto"> </span>
+            </div>
+
+            <div class="grid grid-col-1 md:grid-cols-1 gap-4">
+                <div>
+                    <h3 class="text-3xl font-bold text-left mb-5 text-black">Education </h3>
+                    <div class="bg-blue-800 p-8 text-white border-b-2 mb-1 border-blue-800">
+                        <h3 class="text-2xl font-bold mb-4"> Bachelor of Commerce in Computer Application (BCCA) </h3>
+                        <h4 class="text-lg font-bold mb-4 text-gray-200">Nagpur Univercity 2003-2007 </h4>
+                        <p> A blend of commerce and technology, focusing on business management and computer applications.</p>
+                    </div>
+
+                    <div class="bg-blue-800 p-8 text-white border-b-2 mb-1 border-blue-800">
+                        <h3 class="text-2xl font-bold mb-4"> Bachelor of Commerce in Computer Application (BCCA) </h3>
+                        <h4 class="text-lg font-bold mb-4 text-gray-200">Nagpur Univercity 2003-2007 </h4>
+                        <p> A blend of commerce and technology, focusing on business management and computer applications.</p>
+                    </div>
+                    <div class="bg-blue-800 mb-1 p-8 text-white border-b-2 border-blue-800">
+                        <h3 class="text-2xl font-bold mb-4">Higher Secondary Certificate</h3>
+                        <h4 class="text-lg font-bold mb-4 text-gray-200">Maharashtra State Board 2001-2003 </h4>
+                        <p> Completed higher secondary education with a focus on Commerce.</p>
+                    </div>
+                    <div class="bg-blue-800 mb-1 p-8 text-white border-b-2 border-blue-800">
+                        <h3 class="text-2xl font-bold mb-4"> Secondary School Certificate (SSC) </h3>
+                        <h4 class="text-lg font-bold mb-4 text-gray-200">Maharashtra State Board 2000-2001 </h4>
+                        <p> Completed secondary education with a strong academic foundation.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-left mb-5 text-black"> Experience </h3>
+                    <div class="bg-blue-800 p-8 text-white border-b-2 mb-1 border-blue-800">
+                        <h3 class="text-2xl font-bold mb-4"> UI Expert </h3>
+                        <h4 class="text-lg font-bold mb-4 text-gray-200"> Six Sigma Softsolutions pvt ltd clients of TCS, may-2022–march 2024 </h4>
+                        <p> <b> RESPONSIBILITY</b>Write clean, well-organized HTML, CSS, SCSS, JavaScript, JQuery, and ReactJS code</p>
+                    </div>
+
+                    <div class="bg-blue-800 p-8 text-white border-b-2 mb-1 border-blue-800">
+                        <h3 class="text-2xl font-bold mb-4"> Sr. UI Developer </h3>
+                        <h4 class="text-lg font-bold mb-4 text-gray-200"> Plexasys Solutions Pvt Ltd, August-2019–march </h4>
+                        <p> <b> RESPONSIBILITY</b> PSD to Convert HTML Testing the website for Cross browser compatibility, W3 validation Skill: HTML5, CSS, Javascript, Jquery, Figma</p>
+                    </div>
+                    <div class="bg-blue-800 mb-1 p-8 text-white border-b-2 border-blue-800">
+                        <h3 class="text-2xl font-bold mb-4"> Web Designer </h3>
+                        <h4 class="text-lg font-bold mb-4 text-gray-200">Plexasys Solutions Pvt Ltd April -2016 – April-2019 </h4>
+                        <p> <b> RESPONSIBILITY </b> Design Web Template (Photoshop) Mobile App design (Photoshop) PSD to Convert HTML Testing the website for Cross browser compatibility, W3 validation Skill: HTML5, CSS, Javascript, Jquery, Photoshop</p>
+                    </div>
+                    <div class="bg-blue-800 mb-1 p-8 text-white border-b-2 border-blue-800">
+                        <h3 class="text-2xl font-bold mb-4"> Web Designer </h3>
+                        <h4 class="text-lg font-bold mb-4 text-gray-200">Platys Solution Pvt Ltd Nov-2010 – march-2016 </h4>
+                        <p> <b> RESPONSIBILITY </b> Design Web Template (Photoshop) PSD to Convert HTML Flash Animation, Image Editing, Logo Design</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--portfolio Section  start-->
+    <section class="bg-slate-100 md:py-12 py-10 relative wow slideInLeft" data-wow-duration="2s" data-wow-delay="3s" id="portfolio">
+        <div class="container mx-auto px-4 md:px-0 ">
+            <div class="pb-10 mb-12">
+                <hi class=" text-center block text-5xl font-bold font-roboto text-black pb-6"> Portfolio</hi>
+                <span class="block w-20 h-1 bg-blue-800 mx-auto"> </span>
+            </div>
+            <div class="grid md:grid-cols-3 grid-col-1 gap-4">
+                <div> <img src="../images/design1.webp" alt="" class="rounded object-cover h-72 w-full object-center"></div>
+                <div> <img src="../images/design2.webp" alt="" class="rounded object-cover h-72 w-full object-top"></div>
+                <div> <img src="../images/design3.webp" alt="" class="rounded object-cover h-72 w-full object-bottom"></div>
+                <div> <img src="../images/design4.webp" alt="" class="rounded object-cover h-72 w-full object-center"></div>
+                <div> <img src="../images/design5.webp" alt="" class="rounded object-cover h-72 w-full object-top"></div>
+                <div> <img src="../images/design6.webp" alt="" class="rounded object-cover h-72 w-full object-bottom"></div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--contact Section  start-->
+    <section class="bg-slate-50 md:py-12 py-10 relative wow slideInRight" data-wow-duration="2s" data-wow-delay="3s" id="contact">
+        <div class="container mx-auto px-4 md:px-0">
+            <div class="pb-10 mb-12">
+                <hi class=" text-center block text-5xl font-bold font-roboto text-black pb-6"> Contact Us</hi>
+                <span class="block w-20 h-1 bg-blue-800 mx-auto"> </span>
+            </div>
+
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-5">
+                <div>
+                    <h3 class="text-3xl font-bold mb-4 text-black"> Message Me </h3>
+                    <form action="">
+                        <div class="grid grid-cols-2 gap-4">
+                            <input type="text" placeholder=" Enter Your Name" class="bg-transparent text-black p-5 mb-2 border-b-1 focus:border-blue-800 text-lg outline-0 border-b" name="name" required/>
+                            <input type="text" placeholder=" Enter Your Last Name" class="bg-transparent text-black p-5 mb-2 border-b-1 focus:border-blue-800 text-lg outline-0 border-b" name="lastname" required/>
+                            <input type="email" placeholder=" Enter Your email" class="bg-transparent text-black p-5 mb-2 border-b-1 focus:border-blue-800 text-lg outline-0 border-b" name="email" minlength="6" required />
+                            <input type="tel" placeholder=" Enter Your mobile Number" class="bg-transparent text-black p-5 mb-2 border-b-1 focus:border-blue-800 text-lg outline-0 border-b" name="mobile" required />
+                        </div>
+                        <div class="grid grid-cols-1 gap-4">
+                            <textarea placeholder="Enter Your Msg" class="bg-transparent text-black p-5  mb-8 border-b focus:border-blue-800 text-lg outline-0 h-28" name="msg" required></textarea>
+
+                            <button class="bg-transparent rounded py-5 px-8 text-blue-800 text-lg border border-2 border-blue-800 uppercase hover:bg-blue-800 hover:text-white" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-white md:pl-7 mt-6 md:mt-0">
+                    <h3 class="text-black text-3xl font-bold mb-4"> Contact Me</h3>
+                    <div class="p-10 bg-blue-800">
+                        <h4 class="text-xl my-5"> Name</h4>
+                        <p> Sunita Yadav </p>
+                        <h4 class="text-xl my-5"> Address </h4>
+                        <p> Nagpur </p>
+                        <h4 class="text-xl my-5"> Mobile</h4>
+                        <p> 91+9049669554 </p>
+                        <h4 class="text-xl my-5"> Email</h4>
+                        <p> sunita.sun15april@gmail.com </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const mobileIcon = document.querySelector("#menuIcon");
+        const mobiledis = document.querySelector("#mobile-d");
+        mobileIcon.addEventListener("click", () => {
+            mobiledis.classList.toggle("hidden");
+        });
+        new WOW().init();
+        var wow = new WOW({
+            boxClass: 'wow', // animated element css class (default is wow)
+            animateClass: 'animated', // animation css class (default is animated)
+            offset: 0, // distance to the element when triggering the animation (default is 0)
+            mobile: true, // trigger animations on mobile devices (default is true)
+            live: true, // act on asynchronously loaded content (default is true)
+            callback: function(box) {
+                // the callback is fired every time an animation is started
+                // the argument that is passed in is the DOM node being animated
+            },
+            scrollContainer: null // optional scroll container selector, otherwise use window
+        });
+        wow.init();
+        const typedText = document.querySelector(".typed-text");
+        const cursor = document.querySelector(".cursor");
+
+        const textArray = ["UI Developer", "Web Designer", "Tutor", "YouTuber", "Learner..."];
+
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        const erase = () => {
+            if (charIndex > 0) {
+                cursor.classList.remove('blink');
+                typedText.textContent = textArray[textArrayIndex].slice(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, 80);
+            } else {
+                cursor.classList.add('blink');
+                textArrayIndex++;
+                if (textArrayIndex > textArray.length - 1) {
+                    textArrayIndex = 0;
+                }
+                setTimeout(type, 1000);
+            }
+        }
+
+        const type = () => {
+            if (charIndex <= textArray[textArrayIndex].length - 1) {
+                cursor.classList.remove('blink');
+                typedText.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, 120);
+            } else {
+                cursor.classList.add('blink');
+                setTimeout(erase, 1000);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            type();
+        })
+    </script>
+</body>
+
+</html>
