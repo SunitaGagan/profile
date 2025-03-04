@@ -3,6 +3,7 @@ module.exports = {
     content: ["./publice/*.html"],
     theme: {
         extend: {
+            darkMode: 'class', // or 'media'
             fontFamily: {
                 'sans': ["Inter", "sans-serif"],
             },
